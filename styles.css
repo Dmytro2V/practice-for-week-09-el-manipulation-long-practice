@@ -1,0 +1,23 @@
+/* Phase 2: Adding CSS classes and styles 
+Change the color of your h1
+Add a border around your ul
+Add a hover effect to change the background color of your list items
+This is looking much better but your text is all scrunched together. Add padding to these classes to give it room to breathe.
+
+Add more CSS styles beyond the ones above to your page to personalize it!*/
+
+h1.my-name {
+    color:blue
+}
+ul.my-details {
+    border: 1px solid sandybrown
+}
+li {
+    padding: 10px;
+    cursor: pointer;
+}
+li:hover {
+    padding: 0 3px;
+    
+    background-color: aqua;
+}
